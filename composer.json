@@ -1,0 +1,31 @@
+{
+    "name": "template-interop/engine",
+    "description": "Common interface for template engines",
+    "keywords": [
+        "render",
+        "template",
+        "engine",
+        "templating",
+        "output",
+        "twig",
+        "plates",
+        "smarty",
+        "blade",
+        "dwoo"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Keven",
+            "email": "hello@keven.fr"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Interop\\Template\\": "src/"
+        }
+    }
+}
